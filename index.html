@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Digital Tasbih</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1 class="text-7xl font-bold text-center mt-12 text-lime-600">
+      Digital Tasbih
+    </h1>
+    <!-- Subhanallah Section -->
+    <section class="mt-12 flex justify-around">
+        <div class="div-1 border border-r-2 rounded-lg border-blue-300 p-8">
+          <h1 class="text-5xl mb-8 text-center">Subhanallah</h1>
+          <p class="subhanallahDisplay text-4xl text-center mb-6">0</p>
+          <div class="btn-div mx-auto flex justify-center gap-6">
+            <button class="subhanallahIncrement btn btn-outline btn-success">Increment</button>
+            <button class="subhanallahDecrement btn btn-outline btn-error">Decrement</button>
+          </div>
+        </div>
+        <div class="div-1 border border-r-2 rounded-lg border-blue-300 p-8">
+          <h1 class="text-5xl mb-8 text-center">Alhamdulillah</h1>
+          <p class="alhamdulillahDisplay text-4xl text-center mb-6">0</p>
+          <div class="btn-div mx-auto flex justify-center gap-6">
+            <button class="alhamdulillahIncrement btn btn-outline btn-success">Increment</button>
+            <button class="alhamdulillahDecrement btn btn-outline btn-error">Decrement</button>
+          </div>
+        </div>
+        <div class="div-1 border border-r-2 rounded-lg border-blue-300 p-8">
+          <h1 class="text-5xl mb-8 text-center">Allah Akbar</h1>
+          <p class="AllahAkbarDisplay text-4xl text-center mb-6">0</p>
+          <div class="btn-div mx-auto flex justify-center gap-6">
+            <button class="AllahAkbarIncrement btn btn-outline btn-success">Increment</button>
+            <button class="AllahAkbarDecrement btn btn-outline btn-error">Decrement</button>
+          </div>
+        </div>
+
+      </section>
+  
+  
+
+
+
+  <!-- Reset Section -->
+
+  </body>
 </html>
